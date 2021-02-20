@@ -1,0 +1,18 @@
+Id,Designator,Package,Quantity,Part #,Manufacturer,Notes
+1,U1,TQFP-64_14x14mm_P0.8mm,1,AT90USB1286-AU,Atmel,Align dot on chip with dot on PCB (pin 1)
+2,J3,IDC-Header_2x03_P2.54mm_Vertical,1,NOT FITTED,,
+3,"R1,R3",R_0603_1608Metric,2,ERJ-PA3F22R0V,Panasonic,
+4,J4,TE_3-84952-0_1x30-1MP_P1.0mm_Horizontal,1,3-84952-0,TE Connectivity,
+5,"C2,C3",C_0603_1608Metric,2,06035A160JAT2A,AVX Corporation,
+6,C4,C_0603_1608Metric,1,C0603C105K4RACTU,KEMET,
+7,D1,LED_0603_1608Metric_Castellated,1,150080GS75000,Wurth Electronik,
+8,J1,USB_Micro-B_Amphenol_10103594-0001LF_Horizontal,1,10103594-0001LF,Amphenol ICC,
+9,R2,R_0603_1608Metric,1,ERJ-3EKF2200V,Panasonic,
+10,"R4,R5,R6",R_0603_1608Metric,3,ERJ-3GEYJ331V,Panasonic,
+11,SW1,SW_SPST_FSMSM,1,FSMSM,TE Connectivity,
+12,Y1,Crystal_SMD_3225-4Pin_3.2x2.5mm,1,TSX-3225 16.0000MF18X-AC6,Epson,
+13,R8,R_0603_1608Metric,1,ERJ-3EKF1001V,Panasonic,
+16,C1,C_1206_3216Metric,1,TAJA106K006RNJ,AVX Corporation,
+17,"C6,C7,C5",C_0402_1005Metric,3,CL05A104KA5NNNC,Samsung,
+18,R9,R_0603_1608Metric,1,ERJ-3GEYJ331V,Panasonic,
+19,U2,SOT-23-6,1,USBLC6-2SC6,STMicroelectronics,"Pin 1 is aligned with longer line on silkscreen, towards outside of board"

@@ -1,0 +1,28 @@
+### Module positions - created on 12/20/20 21:52:53 ###
+### Printed by Pcbnew version kicad (5.1.8)-1
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                        Package                                               PosX       PosY       Rot  Side
+C1        TAJA106K006RNJ             C_1206_3216Metric                                  37.5000     8.1000  270.0000  top
+C2        06035A160JAT2A             C_0603_1608Metric                                  27.9500    44.8250   90.0000  top
+C3        06035A160JAT2A             C_0603_1608Metric                                  31.2750    45.9000  180.0000  top
+C4        C0603C105K4RACTU           C_0603_1608Metric                                  42.7250    30.7500    0.0000  top
+C5        CL05A104KA5NNNC            C_0402_1005Metric                                  35.5200    22.0000    0.0000  top
+C6        CL05A104KA5NNNC            C_0402_1005Metric                                  33.8000    42.5200  270.0000  top
+C7        CL05A104KA5NNNC            C_0402_1005Metric                                  26.7700    22.5000  180.0000  top
+D1        150080GS75000              LED_0603_1608Metric_Castellated                    43.5000    34.1875   90.0000  top
+J1        10103594-0001LF            USB_Micro-B_Amphenol_10103594-0001LF_Horizontal    43.1150     9.0650   90.0000  top
+J4        3-84952-0                  TE_3-84952-0_1x30-1MP_P1.0mm_Horizontal            12.5000    30.5000  270.0000  top
+R1        ERJ-PA3F22R0V              R_0603_1608Metric                                  42.5000    20.6750  270.0000  top
+R2        ERJ-3EKF2200V              R_0603_1608Metric                                  43.5000    37.6750  270.0000  top
+R3        ERJ-PA3F22R0V              R_0603_1608Metric                                  40.6000    20.6750  270.0000  top
+R4        ERJ-3GEYJ331V              R_0603_1608Metric                                  30.0000    16.1750   90.0000  top
+R5        ERJ-3GEYJ331V              R_0603_1608Metric                                  32.0000    16.1750   90.0000  top
+R6        ERJ-3GEYJ331V              R_0603_1608Metric                                  34.0000    16.1750   90.0000  top
+R8        ERJ-3EKF1001V              R_0603_1608Metric                                  19.6750    30.0000  180.0000  top
+R9        ERJ-3GEYJ331V              R_0603_1608Metric                                  39.4750    42.9750  180.0000  top
+SW1       FSMSM                      SW_SPST_FSMSM                                      43.5000    47.5000   90.0000  top
+U1        AT90USB1286-AU             TQFP-64_14x14mm_P0.8mm                             30.0000    32.0000  180.0000  top
+U2        USBLC6-2SC6                SOT-23-6                                           41.5600    24.9200  270.0000  top
+Y1        TSX-3225_16.0000MF18X-AC6  Crystal_SMD_3225-4Pin_3.2x2.5mm                    30.9000    43.3000    0.0000  top
+## End
