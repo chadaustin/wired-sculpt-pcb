@@ -1,0 +1,41 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,Unpolarized capacitor,C,C7 C8,06035A160JAT2A,C_0603_1608Metric,2,~
+2,Unpolarized capacitor,C,C4 C5 C6 C9,CL10A105KA8NNNC,C_0603_1608Metric,4,~
+3,Unpolarized capacitor,C,C10 C11 C12,CL10B104KB8NNNC,C_0603_1608Metric,3,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf
+4,Unpolarized capacitor,C,C1,CL21A475KOFNNNE,C_0805_2012Metric,1,~
+5,Unpolarized capacitor,C,C3,CL21B103KBANNNC,C_0805_2012Metric,1,~
+6,Unpolarized capacitor,C,C2,CL21B104KACNNNC,C_0805_2012Metric,1,~
+7,Light emitting diode,LED,D1,150080GS75000,LED_0603_1608Metric_Castellated,1,~
+8,USB Micro Type B connector,USB_B_Micro,J1,10103594-0001LF,USB_Micro-B_Amphenol_10103594-0001LF_Horizontal,1,https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118193.pdf
+9,Atmel 6-pin ISP connector,AVR-ISP-6,J3,AVR-ISP-6 - NOT FITTED,IDC-Header_2x03_P2.54mm_Vertical,1, ~
+10,"Generic connector, single row, 01x30, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x30_Female,J2,FFC3B07-30-T,TE_3-84952-0_1x30-1MP_P1.0mm_Horizontal,1,https://gct.co/files/specs/1.0mm-ffc-spec.pdf
+11,"0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23",2N7002,Q2,2N7002BK,SOT-23,1,https://assets.nexperia.com/documents/data-sheet/2N7002BK.pdf
+12,"-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23",BSS84,Q1,"BSS84AK,215",SOT-23,1,https://assets.nexperia.com/documents/data-sheet/BSS84AK.pdf
+13,"Resistor, US symbol",R_US,R7,ERJ-3EKF10R0V,R_0603_1608Metric,1,~
+14,"Resistor, US symbol",R_US,R4,ERJ-3EKF8873V,R_0603_1608Metric,1,~
+15,"Resistor, US symbol",R_US,R6 R9 R10,ERJ-3GEYJ331V,R_0603_1608Metric,3,~
+16,"Resistor, US symbol",R_US,R1 R2,ERJ-PA3F22R0V,R_0603_1608Metric,2,~
+17,"Resistor, US symbol",R_US,R3 R8,ERJ-PA3J472V,R_0603_1608Metric,2,
+18,"Resistor, US symbol",R_US,R5,ERJ-PA3J473V,R_0603_1608Metric,1,~
+19,"Push button switch, generic, two pins",SW_Push,SW1,FSMSM,SW_SPST_FSMSM,1,~
+20,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02_Female,SW2,S2B-PH-K-S(LF)(SN),JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,1,https://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+21,"16MHz, 128kB Flash, 8kB SRAM, 4kB EEPROM, USB 2.0, TQFP-64",AT90USB1286-AU,U3,AT90USB1286-AU,TQFP-64_14x14mm_P0.8mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf
+22,"Switched capacitor inverter, inverts positive voltage +2.7 to +5.5V to negative, 200mA, SOT-23-6",LM2776,U2,LM2776DBVT,SOT-23-6,1,http://www.ti.com/lit/ds/symlink/lm2776.pdf
+23,"Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",USBLC6-2SC6,U1,USBLC6-2SC6,SOT-23-6,1,https://www.st.com/resource/en/datasheet/usblc6-2.pdf
+24,"Four pin crystal, GND on pins 2 and 4",Crystal_GND24,Y1,TSX-3225 16.0000MF18X-AC0,Crystal_SMD_3225-4Pin_3.2x2.5mm,1,https://www5.epsondevice.com/en/information/support/pdf/june_2018_psc_masterbook.pdf
+
+
+
+
+
+Component Groups:,24
+Component Count:,34
+Fitted Components:,34
+Number of PCBs:,1
+Total components:,34
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,udefault
+BoM Date:,2021-04-18 5:18:13 PM
+Schematic Source:,wired-sculpt.sch
+KiCad Version:,Eeschema (5.1.8)-1

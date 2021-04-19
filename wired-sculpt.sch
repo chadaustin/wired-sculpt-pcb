@@ -139,7 +139,7 @@ L Device:C C9
 U 1 1 5FC36D2E
 P 4650 3150
 F 0 "C9" V 4500 3150 50  0000 C CNN
-F 1 "C0603C105K4RACTU" H 4050 3150 50  0000 C CNN
+F 1 "CL10A105KA8NNNC" H 4050 3150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 3000 50  0001 C CNN
 F 3 "~" H 4650 3150 50  0001 C CNN
 	1    4650 3150
@@ -172,7 +172,7 @@ L Device:C C1
 U 1 1 5FC4EF1F
 P 2150 1150
 F 0 "C1" V 1895 1150 50  0000 C CNN
-F 1 "CL21A475KAQNNNE" V 1986 1150 50  0000 C CNN
+F 1 "CL21A475KOFNNNE" V 1986 1150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2188 1000 50  0001 C CNN
 F 3 "~" H 2150 1150 50  0001 C CNN
 	1    2150 1150
@@ -282,9 +282,9 @@ L Device:Crystal_GND24 Y1
 U 1 1 5FE44873
 P 4250 2000
 F 0 "Y1" V 4204 1756 50  0000 R CNN
-F 1 "TSX-3225 16.0000MF18X-AC6" V 4295 1756 50  0000 R CNN
+F 1 "TSX-3225 16.0000MF18X-AC0" V 4295 1756 50  0000 R CNN
 F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 4250 2000 50  0001 C CNN
-F 3 "~" H 4250 2000 50  0001 C CNN
+F 3 "https://www5.epsondevice.com/en/information/support/pdf/june_2018_psc_masterbook.pdf" H 4250 2000 50  0001 C CNN
 	1    4250 2000
 	0    -1   1    0   
 $EndComp
@@ -320,9 +320,9 @@ L Device:R_US R3
 U 1 1 5FD0343E
 P 4100 3850
 F 0 "R3" H 4168 3896 50  0000 L CNN
-F 1 "ERJ-3GEYJ103V" H 4168 3805 50  0000 L CNN
+F 1 "ERJ-PA3J472V" H 4168 3805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4140 3840 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4100 3850 50  0001 C CNN
+F 3 "" H 4100 3850 50  0001 C CNN
 	1    4100 3850
 	1    0    0    -1  
 $EndComp
@@ -344,9 +344,9 @@ L Connector:Conn_01x30_Female J2
 U 1 1 5FC5FC5B
 P 8150 6150
 F 0 "J2" H 8178 6126 50  0000 L CNN
-F 1 "3-84952-0" H 8178 6035 50  0000 L CNN
+F 1 "FFC3B07-30-T" H 8178 6035 50  0000 L CNN
 F 2 "Connector_FFC-FPC:TE_3-84952-0_1x30-1MP_P1.0mm_Horizontal" H 8150 6150 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English" H 8150 6150 50  0001 C CNN
+F 3 "https://gct.co/files/specs/1.0mm-ffc-spec.pdf" H 8150 6150 50  0001 C CNN
 	1    8150 6150
 	0    1    1    0   
 $EndComp
@@ -750,7 +750,7 @@ L Connector:Conn_01x02_Female SW2
 U 1 1 605DE1FD
 P 10200 2100
 F 0 "SW2" V 10138 2148 50  0000 L CNN
-F 1 "Conn_01x02_Female" V 10047 2148 50  0000 L CNN
+F 1 "S2B-PH-K-S(LF)(SN)" V 10047 2148 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 10200 2100 50  0001 C CNN
 F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10200 2100 50  0001 C CNN
 	1    10200 2100
@@ -818,7 +818,7 @@ L Regulator_SwitchedCapacitor:LM2776 U2
 U 1 1 60694FE9
 P 3150 5750
 F 0 "U2" H 3594 5746 50  0000 L CNN
-F 1 "LM2776" H 3594 5655 50  0000 L CNN
+F 1 "LM2776DBVT" H 3594 5655 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3200 5400 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2776.pdf" H 1300 7000 50  0001 C CNN
 	1    3150 5750
@@ -937,9 +937,9 @@ L Transistor_FET:2N7002 Q2
 U 1 1 607BF586
 P 10300 3700
 F 0 "Q2" H 10504 3746 50  0000 L CNN
-F 1 "2N7002" H 10504 3655 50  0000 L CNN
+F 1 "2N7002BK" H 10504 3655 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10500 3625 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 10300 3700 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/2N7002BK.pdf" H 10300 3700 50  0001 L CNN
 	1    10300 3700
 	1    0    0    -1  
 $EndComp
@@ -994,7 +994,7 @@ P 9400 3900
 F 0 "Q1" V 9649 3900 50  0000 C CNN
 F 1 "BSS84AK,215" V 9740 3900 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9600 3825 50  0001 L CIN
-F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 9400 3900 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BSS84AK.pdf" H 9400 3900 50  0001 L CNN
 	1    9400 3900
 	0    1    1    0   
 $EndComp
