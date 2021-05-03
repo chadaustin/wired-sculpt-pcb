@@ -432,7 +432,7 @@ F 1 "CL10B104KB8NNNC" V 3750 1150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 1000 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf" H 3900 1150 50  0001 C CNN
 	1    3900 1150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5650 1300 5650 1400
@@ -454,7 +454,7 @@ F 1 "CL10B104KB8NNNC" V 4639 1150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4838 1000 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf" H 4800 1150 50  0001 C CNN
 	1    4800 1150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text GLabel 5450 1300 0    50   Input ~ 0
 VBUS
@@ -495,7 +495,7 @@ F 1 "CL10B104KB8NNNC" V 4189 1150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4388 1000 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf" H 4350 1150 50  0001 C CNN
 	1    4350 1150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text GLabel 6650 5950 1    50   Input ~ 0
 PF4
@@ -822,11 +822,11 @@ Wire Wire Line
 	1700 4650 1400 4650
 Text GLabel 4950 1700 0    50   Input ~ 0
 RST
-Text GLabel 9450 5950 1    50   Input ~ 0
+Text GLabel 9350 5950 1    50   Input ~ 0
 RED+
 NoConn ~ 6150 4500
 NoConn ~ 6150 4600
-Text GLabel 9350 5950 1    50   Input ~ 0
+Text GLabel 9450 5950 1    50   Input ~ 0
 GREEN-
 Text GLabel 6150 3300 2    50   Input ~ 0
 RED+
@@ -1006,23 +1006,7 @@ F 3 "~" H 1050 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 1300 3900 1300
-Wire Wire Line
-	3900 1300 4350 1300
-Connection ~ 3900 1300
-Wire Wire Line
-	4350 1300 4800 1300
-Connection ~ 4350 1300
-Wire Wire Line
-	5550 1000 4800 1000
-Wire Wire Line
 	5550 1000 5550 1300
-Wire Wire Line
-	4800 1000 4350 1000
-Connection ~ 4800 1000
-Wire Wire Line
-	4350 1000 3900 1000
-Connection ~ 4350 1000
 $Comp
 L power:GND #PWR016
 U 1 1 5FC684D6
@@ -1068,4 +1052,20 @@ Text GLabel 7900 1450 0    50   Input ~ 0
 SCK
 Text GLabel 7900 1250 0    50   Input ~ 0
 MISO
+Wire Wire Line
+	3450 1300 3900 1300
+Connection ~ 3900 1300
+Wire Wire Line
+	3900 1300 4350 1300
+Wire Wire Line
+	3900 1000 4350 1000
+Connection ~ 4350 1300
+Wire Wire Line
+	4350 1300 4800 1300
+Connection ~ 4350 1000
+Wire Wire Line
+	4350 1000 4800 1000
+Connection ~ 4800 1000
+Wire Wire Line
+	4800 1000 5550 1000
 $EndSCHEMATC
