@@ -92,7 +92,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "output 2021-04-18/"))
+      (outputdirectory "output 2021-05-08/"))
   )
 
   (net 0 "")
@@ -2454,7 +2454,7 @@
   (segment (start 127.600001 37.590001) (end 126.798003 38.391999) (width 0.2) (layer F.Cu) (net 73))
   (segment (start 126.826 33.2) (end 127.600001 33.974001) (width 0.2) (layer F.Cu) (net 73))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 607CD66F) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 60973DC6) (hatch edge 0.508)
     (connect_pads thru_hole_only (clearance 0.2))
     (min_thickness 0.2)
     (fill yes (arc_segments 32) (thermal_gap 0.2) (thermal_bridge_width 0.5))
