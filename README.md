@@ -4,6 +4,18 @@ This repository contains the schematic and layout files for the [Microsoft Sculp
 
 ## Project Updates
 
+### 2021-09-07
+
+The rev4 board design is complete.
+
+When I upgraded the 30-pin ribbon connector to one that fit better, it lowered the resistance to the LEDs. This caused me to burn the microcontroller on a test rev3 board by drawing too much current. So the question became: what values are appropriate for "maximum" brightness on both red and green. Today I found that, given a 5.15V VUSB, whatever resistance in the flex cable, and whatever voltage drop on the LEDs, 150 Ohms gives an even brightness on both red and green. Green draws about 15 mA and red about 10 mA, both within USB low-power spec and the current limits on the microcontroller.
+
+I added an [outputs](outputs/) directory containing the different revisions, and gerber files and drill files generated for either PCBWay or OSH Park.
+
+The biggest challenge right now is the chip shortage. Even some of the capacitors I chose are out of stock. The hardest component to acquire is the ESD protection IC: USBLC6-2SC6. The USBLC6-4SC6 is available, but it would require some tweaking to the PCB layout.
+
+On the software side of things, I added an internal ring buffer for debugging the debouncer. It can be dumped to the HID debug channel by holding both shifts and pressing H. I am trying to figure out why, with my custom low-latency debouncer, sometimes "the" comes out as "theb". For anyone that isn't trying to optimize latency as much as me, you can just run with the default QMK debouncer, which I've never seen produce phantom keys.
+
 ### 2021-05-02
 
 One thing that annoyed me about the previous board design was that neither LED was hooked up to a PWM-capable pin and that the green one couldn't be driven, since it wants -5V. I want both lights to work and both to be dimmable.
