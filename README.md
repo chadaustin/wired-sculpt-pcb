@@ -6,6 +6,17 @@ This repository contains the schematic and layout files for the [Microsoft Sculp
 
 ### 2021-09-07
 
+The rev5 board design proposal.
+
+Removed the charge pump.
+When the common pin for both LEDs is driven with a 50% duty-cycle rectangular signal both LEDs can be used without additional circuit.
+QMK has a feature to change the brightness of background LEDs and we are just going to use this feature to produce such a signal.
+
+As the FN switch is also connected to this line we have to filter out the switching frequency to be able to read the switch.
+For this a simple diode rectifier was added. A resistor to discharge the filter capacitor is also needed to detect the switch off state.
+
+### 2021-09-07
+
 The rev4 board design is complete.
 
 When I upgraded the 30-pin ribbon connector to one that fit better, it lowered the resistance to the LEDs. This caused me to burn the microcontroller on a test rev3 board by drawing too much current. So the question became: what values are appropriate for "maximum" brightness on both red and green. Today I found that, given a 5.15V VUSB, whatever resistance in the flex cable, and whatever voltage drop on the LEDs, 150 Ohms gives an even brightness on both red and green. Green draws about 15 mA and red about 10 mA, both within USB low-power spec and the current limits on the microcontroller.
